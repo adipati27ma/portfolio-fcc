@@ -2,15 +2,15 @@
   padding-top: 6rem;
   background-color: #e2edff;
   /* margin-bottom: -1px; */
-  height: 100vh;
-  position: relative;
+  /* height: 100vh;
+  position: relative; */
 }
 
-.wave1 {
+/* .wave1 {
   position: absolute;
   left: 0;
   bottom: 0;
-}
+} */
 
 .jumbotron img {
   width: 200px;
