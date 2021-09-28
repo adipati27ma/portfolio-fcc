@@ -2,10 +2,33 @@
   padding-top: 6rem;
   background-color: #e2edff;
   /* margin-bottom: -1px; */
+  height: 100vh;
+  position: relative;
+}
+
+.wave1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .jumbotron img {
   width: 200px;
+}
+
+.social-media li {
+  display: inline-block;
+  font-size: 2rem;
+  margin: auto .5rem;
+  border-radius: 50%;
+}
+
+.social-media li a {
+  color: #212529;
+}
+
+.social-media li a:hover {
+  color: rgb(57, 46, 219);
 }
 
 section {
