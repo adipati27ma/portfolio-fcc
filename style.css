@@ -1,0 +1,60 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+  /* margin-bottom: -1px; */
+}
+
+.jumbotron img {
+  width: 200px;
+}
+
+section {
+  margin-top: -1px;
+  padding-top: 5rem;
+}
+
+.about .content {
+  text-align: justify;
+}
+
+.projects {
+  background-color: #e2edff;
+}
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #acacac;
+  font-weight: 500;
+}
+
+footer {
+  margin-top: -2px;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer a:hover {
+  opacity: .8;
+}
+
+/* Add for Custom Animation fadeout alert:(((( */
+/* karena kalo pake bawaan bootstrap, gabisa muncul lagi */
+.alert.alert-dismissible {
+  opacity: 1;
+  transition: .5s all;
+}
+
+.alert.alert-dismissible.fade {
+  opacity: 0;
+}
+
+/* End of Custom Animation */
+
+@media only screen and (max-width: 768px) {
+  .about .content {
+    text-align: center;
+  }
+}
