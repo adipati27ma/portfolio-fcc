@@ -44,6 +44,17 @@ section {
   background-color: #e2edff;
 }
 
+.projects .card.project-tile .card-body {
+  height: 250px;
+  position: relative;
+}
+
+.card-body a {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
 .clue {
   margin-left: 0.25rem;
   font-size: 0.9rem;
